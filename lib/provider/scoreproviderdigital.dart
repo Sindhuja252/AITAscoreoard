@@ -30,11 +30,7 @@ class ScoreProviderValue extends ChangeNotifier {
       print("AD - Advantage situation");
       return;
     }
-
-
     status = true;
-
-
     if (player1Increment > 40) {
       player1Increment = 0;
       if (a < 6) {
